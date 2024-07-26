@@ -8,24 +8,26 @@
   </head>
   <body>
     <div class="nav">
-      <div class="navi">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skill">Skills</a></li>
-          <li><a href="#proj">Projects</a></li>
-          <li><a href="#contact">Contacts</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
     </div>
     <div class="cont">
-      <div class="home" id="home">
-        <p><h3>Hey There!</h3>
-          I'm <strong>Velmurugan</strong>, a Tech Enthusiast with a passion for Computer Hardwares and Networking. <br>
-          Here is my one line story, Started to explore about my passion during the 2020 lockdown which sparked me to know more and more about tech around me and eventually fell in love with computer hardwares and networks.
+      <section class="home" id="home">
+        <h3>Hey There!</h3>
+        <p>
+          I'm <strong>Velmurugan</strong>, a Tech Enthusiast with a passion for
+          Computer Hardwares and Networking. Here is my one line story, Started
+          to explore about my passion during the 2020 lockdown which sparked me
+          to know more and more about tech around me and eventually fell in love
+          with computer hardwares and networks.
         </p>
-      </div>
-      <div class="about" id="about">
+      </section>
+      <section class="about" id="about">
         <h1>WHO AM I</h1>
         <p>
           By nature, I'm a curious tinkerer who thrives on taking apart gadgets,
@@ -37,8 +39,8 @@
           eager to lend a hand, and my positive energy fuels a collaborative
           environment. I'm chomping at the bit to learn programming languages.
         </p>
-      </div>
-      <div class="skill" id="skill">
+      </section>
+      <section class="skill" id="skill">
         <h1>SKILLS</h1>
         <div class="skill-cont">
           <div class="skill-item">Problem Solving</div>
@@ -55,27 +57,61 @@
           <div class="skill-item">Linux</div>
           <div class="skill-item">Fast Learner</div>
         </div>
-      </div>
-      <div class="proj" id="proj">
+      </section>
+      <section class="proj" id="proj">
         <h1>PROJECTS</h1>
         <div class="proj-cont">
-          <div class="proj-item">SKI Foods</div>
-          <div class="proj-item">Popz Tune</div>
-          <div class="proj-item">Home Server</div>
+          <div class="proj-item1">
+            <h3>SKI Foods</h3>
+          </div>
+          <div class="proj-item2">
+            <h3>Popz Tune</h3>
+          </div>
+          <div class="proj-item3">
+            <h3>Home Server</h3>
+          </div>
         </div>
-      </div>
-      <div class="contact" id="contact">
+      </section>
+      <section class="contact" id="contact">
         <h1>LET'S TALK!</h1>
         <div class="contact-form">
-          <form action="#" class="conta">
-            <input type="text" name="name" id="name" placeholder="name" required>
-            <input type="email" name="email" id="email" placeholder="Email" required>
-            <input type="text" name="subject" id="subject" placeholder="subject" required>
-            <input type="text" name="message" id="message" placeholder="Message" required>
-            <input type="submit" value="sub">
+          <form action="#" method="post">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+            <label for="message">Message</label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Message"
+              required
+            />
+            <input type="submit" value="Submit" />
           </form>
         </div>
-      </div>        
+      </section>
     </div>
   </body>
 </html>
