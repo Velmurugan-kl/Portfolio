@@ -39,6 +39,14 @@ body {
   max-width: 800px;
   margin: auto;
 }
+
+.home {
+  display: inline-block;
+  height: 78vh;
+  padding-top: 20vh;
+  text-align: justify;
+}
+
 .about {
   display: inline-block;
   height: 92vh;
@@ -47,17 +55,20 @@ body {
 }
 
 .skill,
-.proj {
+.proj,
+.contact {
   height: 92vh;
   padding-top: 5vh;
 }
 
+.contact-form{
+  height: 200px;
+  border-style: solid;
+  border-color: #111;
+}
+
 h1 {
   text-align: center;
-}
-p {
-  display: inline-block;
-  align-content: center;
 }
 
 .skill-cont {
