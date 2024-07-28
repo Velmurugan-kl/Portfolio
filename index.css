@@ -261,13 +261,7 @@ h3 {
   color: rgb(117, 127, 144);
 }
 
-.pop-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.hos-imh{
+.pop-img,.ski-img,.hos-imh {
   width: 100%;
   height: auto;
   border-radius: 8px;

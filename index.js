@@ -54,4 +54,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const url = document.querySelector(".proj-item3").getAttribute("data-link");
     window.open(url,"_blank");
   })
+  document.querySelector(".proj-item1").addEventListener("click", () => {
+    const url = document.querySelector(".proj-item1").getAttribute("data-link");
+    window.open(url,"_blank");
+  })
 });
