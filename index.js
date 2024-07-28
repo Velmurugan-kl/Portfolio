@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'skill-item13': 'Fast Learner indicates the ability to quickly understand and assimilate new information.'
     };
   
+    
+
     skills.forEach(skill => {
       skill.addEventListener('mouseenter', () => {
         const skillId = skill.getAttribute('id');
